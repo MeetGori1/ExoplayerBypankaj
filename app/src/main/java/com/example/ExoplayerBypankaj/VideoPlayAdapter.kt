@@ -42,7 +42,7 @@ class VideoPlayAdapter() :
         RecyclerView.ViewHolder(binding.root) {
         fun bindItem(bean: String) {
 
-            binding.media3PlayerView.url = bean
+            binding.media3PlayerView.url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
 //           BasePlayer.play(itemView.context,binding.media3PlayerView,bean)
 
 
